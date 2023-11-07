@@ -19,7 +19,7 @@ public class BasicAuthentication {
 		((HasAuthentication)driver).register(uriPredicate,UsernameAndPassword.of("foo", "bar"));
 		driver.get("http://httpbin.org/basic-auth/foo/bar");
 	
-	
+	System.out.println("git commit edit");
 		
 	}
 	
